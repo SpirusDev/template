@@ -1,0 +1,28 @@
+{
+	"include": ["**/*.ts"],
+	"exclude": ["./node_modules", "./public/build"],
+	"compilerOptions": {
+        "outDir": "./public/build",
+		"rootDir": "./src/",
+        "lib": ["es2020", "DOM"],
+        "target": "es2017",
+        "moduleResolution": "node",
+
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "composite": true,
+        "noEmitOnError": true,
+
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitOverride": true,
+
+        "skipLibCheck": true,
+
+        "alwaysStrict": true,
+        "preserveConstEnums": true,
+        "newLine": "lf",
+    }
+}
